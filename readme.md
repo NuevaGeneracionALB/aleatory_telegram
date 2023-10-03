@@ -19,3 +19,22 @@ O bot funciona por token. Você acessa esse bot @BotFather no Telegram e cria o 
 O meio de hospedagem é o mesmo do bot de whatsapp, pode usar em http://bronxyshost.com.br ou termux e etc.. qualquer lugar..
 
 Quiser mudar a foto do menu, faz upload lá em https://xatimg.com/ e pega o link direto, e troca em config.js.
+
+
+********************************
+
+Como instalar no termux: 
+
+Primeiros comandos, segue o passo a passo do site https://aleatory.vip/instalacao ( Só é necessário a primeira vez que instalar o termux )
+
+Mas no final que é a instalação do alaeatory do whatpsapp, ae você não faz.
+
+Primeiro comando após que o termux tiver OK.
+
+cd /sdcard && git clone https://github.com/NuevaGeneracionALB/aleatory_telegram && cd aleatory_telegram && node ligar.js
+
+Após isso já fez a instalação, próximas vezes que for ligar após fechar ou algo acontecer, só abrir o termux e usar 
+
+cd /sdcard/aleatory_telegram && node ligar.js 
+
+Caso não for, da exit no termux e abre denovo, mas nunca limpe os dados dele nem desinstale, não é necessário, pois é perca de tempo.
